@@ -1,23 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
+  const HOME_URL = 'https://hhtrung.github.io/'
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>WELCOME TO MY REPOSITORIES</h1>
+        <ol>
+          <li>
+            <a href={`${HOME_URL}tic-tac-toe`}>Tic-tac-toe</a>
+          </li>
+          <li>
+            <a href={`${HOME_URL}Forecast-Weather/`}>Forecast Weather</a>
+          </li>
+        </ol>
       </header>
     </div>
   );
